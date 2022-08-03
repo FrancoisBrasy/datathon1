@@ -15,3 +15,4 @@ install all modules
 Run app
 - python index.py runserver #Python
 - python3 index.py runserver #Python3
+![Plastic](https://user-images.githubusercontent.com/100351485/182598921-729d68f4-a006-44cc-9797-be53543a9449.PNG)
