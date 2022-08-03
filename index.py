@@ -45,12 +45,12 @@ prix_tonne=1500
 result='input1'*dechet_hab
 
 #import des images
-menace = 'C:/Users/H-1.18/Desktop/DATATHON/assets/menace.png.jpeg'
+menace = 'assets\menace.png.jpeg'
 encoded_menace = base64.b64encode(open(menace, 'rb').read())
 decode_image_menace = html.Img(src='data:image/png;base64,{}'.format(encoded_menace.decode()),style={'height':'30%', 'width':'67%'})
-dramastic = 'C:/Users/H-1.18/Desktop/DATATHON/assets/Dramastique.png'
+dramastic = 'assets\Dramastique.png'
 encoded_dramastic = base64.b64encode(open(dramastic, 'rb').read())
-plastique_dram="C:/Users/H-1.18/Desktop/DATATHON/assets/save the earth.png"
+plastique_dram="assets\save the earth.png"
 encoded_plast_dramastic = base64.b64encode(open(plastique_dram, 'rb').read())
 bag1="assets/bag_worcloud_en.png"
 encoded_bag1 = base64.b64encode(open(bag1, 'rb').read())
